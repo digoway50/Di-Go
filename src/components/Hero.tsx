@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDown, ArrowUpRight } from 'lucide-react';
+import heroCampaignImg from '../assets/images/hero_fleex_campaign_1790600641108.jpg';
 
 interface HeroProps {
   onShopClick: () => void;
@@ -12,7 +13,7 @@ export const Hero: React.FC<HeroProps> = ({ onShopClick, onLookbookClick }) => {
       {/* Background Media with measured contrast scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_fleex_campaign_1790600641108.jpg"
+          src={heroCampaignImg}
           alt="Fleex Garments Men Salwar Kameez and Drop 04 Campaign"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover object-center opacity-65 scale-105 transition-transform duration-1000 ease-out"

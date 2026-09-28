@@ -1,5 +1,6 @@
 import React from 'react';
 import { CRAFT_SPECS } from '../data/products';
+import editorialCraftFabricImg from '../assets/images/editorial_craft_fabric_1790600698023.jpg';
 
 export const CraftSection: React.FC = () => {
   return (
@@ -25,7 +26,7 @@ export const CraftSection: React.FC = () => {
           {/* Macro Fabric Image Frame */}
           <div className="lg:col-span-5 relative aspect-[4/3] bg-[#141518] border border-stone-800 overflow-hidden">
             <img
-              src="/src/assets/images/editorial_craft_fabric_1790600698023.jpg"
+              src={editorialCraftFabricImg}
               alt="480 GSM French Terry Cotton Microfiber Weave"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-center"

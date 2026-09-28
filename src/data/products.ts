@@ -1,3 +1,12 @@
+import noirSalwarImg from '../assets/images/product_men_shalwar_kameez_noir_1790601092923.jpg';
+import slateKameezImg from '../assets/images/product_men_kameez_slate_1790601107260.jpg';
+import ivorySalwarImg from '../assets/images/product_men_shalwar_ivory_1790601118438.jpg';
+import hoodieImg from '../assets/images/product_hoodie_heavyweight_1790600659536.jpg';
+import overshirtImg from '../assets/images/product_overshirt_tactical_1790600673286.jpg';
+import trousersImg from '../assets/images/product_trousers_pleated_1790600686292.jpg';
+import fabricImg from '../assets/images/editorial_craft_fabric_1790600698023.jpg';
+import campaignImg from '../assets/images/hero_fleex_campaign_1790600641108.jpg';
+
 export interface Product {
   id: string;
   name: string;
@@ -65,7 +74,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.98,
     reviewCount: 56,
-    primaryImage: '/src/assets/images/product_men_shalwar_kameez_noir_1790601092923.jpg',
+    primaryImage: noirSalwarImg,
     measurements: [
       { size: 'S', chest: 'Kameez 107 cm', length: '102 cm', shoulder: '44 cm', sleeve: '61 cm' },
       { size: 'M', chest: 'Kameez 112 cm', length: '105 cm', shoulder: '46 cm', sleeve: '63 cm' },
@@ -108,7 +117,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.93,
     reviewCount: 38,
-    primaryImage: '/src/assets/images/product_men_kameez_slate_1790601107260.jpg',
+    primaryImage: slateKameezImg,
     measurements: [
       { size: 'S', chest: 'Kameez 108 cm', length: '101 cm', shoulder: '45 cm', sleeve: '61 cm' },
       { size: 'M', chest: 'Kameez 114 cm', length: '104 cm', shoulder: '47 cm', sleeve: '63 cm' },
@@ -151,7 +160,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.97,
     reviewCount: 44,
-    primaryImage: '/src/assets/images/product_men_shalwar_ivory_1790601118438.jpg',
+    primaryImage: ivorySalwarImg,
     measurements: [
       { size: 'S', chest: 'Kameez 106 cm', length: '103 cm', shoulder: '44.5 cm', sleeve: '61.5 cm' },
       { size: 'M', chest: 'Kameez 112 cm', length: '106 cm', shoulder: '46.5 cm', sleeve: '63.5 cm' },
@@ -194,7 +203,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.95,
     reviewCount: 42,
-    primaryImage: '/src/assets/images/product_hoodie_heavyweight_1790600659536.jpg',
+    primaryImage: hoodieImg,
     measurements: [
       { size: 'S', chest: '124 cm', length: '68 cm', shoulder: '59 cm', sleeve: '61 cm' },
       { size: 'M', chest: '130 cm', length: '71 cm', shoulder: '61 cm', sleeve: '62.5 cm' },
@@ -237,7 +246,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.88,
     reviewCount: 31,
-    primaryImage: '/src/assets/images/product_overshirt_tactical_1790600673286.jpg',
+    primaryImage: overshirtImg,
     measurements: [
       { size: 'S', chest: '118 cm', length: '72 cm', shoulder: '52 cm', sleeve: '63 cm' },
       { size: 'M', chest: '124 cm', length: '74 cm', shoulder: '54 cm', sleeve: '64.5 cm' },
@@ -279,7 +288,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.92,
     reviewCount: 29,
-    primaryImage: '/src/assets/images/product_trousers_pleated_1790600686292.jpg',
+    primaryImage: trousersImg,
     measurements: [
       { size: 'S', chest: 'Waist 81 cm', length: '105 cm', shoulder: 'Thigh 70 cm', sleeve: 'Hem 49 cm' },
       { size: 'M', chest: 'Waist 86 cm', length: '107 cm', shoulder: 'Thigh 72 cm', sleeve: 'Hem 50 cm' },
@@ -320,7 +329,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.97,
     reviewCount: 64,
-    primaryImage: '/src/assets/images/editorial_craft_fabric_1790600698023.jpg',
+    primaryImage: fabricImg,
     measurements: [
       { size: 'S', chest: '116 cm', length: '71 cm', shoulder: '53 cm', sleeve: '23 cm' },
       { size: 'M', chest: '122 cm', length: '73 cm', shoulder: '55 cm', sleeve: '24 cm' },
@@ -362,7 +371,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.96,
     reviewCount: 18,
-    primaryImage: '/src/assets/images/hero_fleex_campaign_1790600641108.jpg',
+    primaryImage: campaignImg,
     measurements: [
       { size: 'S', chest: '132 cm', length: '102 cm', shoulder: '56 cm', sleeve: '65 cm' },
       { size: 'M', chest: '138 cm', length: '105 cm', shoulder: '58 cm', sleeve: '66.5 cm' },
@@ -401,7 +410,7 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     rating: 4.89,
     reviewCount: 22,
-    primaryImage: '/src/assets/images/product_hoodie_heavyweight_1790600659536.jpg',
+    primaryImage: hoodieImg,
     measurements: [
       { size: 'S', chest: '114 cm', length: '67 cm', shoulder: 'Raglan', sleeve: '78 cm' },
       { size: 'M', chest: '120 cm', length: '69 cm', shoulder: 'Raglan', sleeve: '80 cm' },
@@ -416,21 +425,21 @@ export const LOOKBOOK_LOOKS = [
     id: 'look-01',
     title: 'Look 01: Bespoke Heritage Form',
     subtitle: 'Bespoke Noir Salwar Kameez in high-count Egyptian cotton with band collar',
-    image: '/src/assets/images/product_men_shalwar_kameez_noir_1790601092923.jpg',
+    image: noirSalwarImg,
     featuredProductIds: ['flx-sk-01', 'flx-03']
   },
   {
     id: 'look-02',
     title: 'Look 02: Linen-Cotton Architecture',
     subtitle: 'Slate Raw Slub Kameez & Pleated Salwar Suit',
-    image: '/src/assets/images/product_men_kameez_slate_1790601107260.jpg',
+    image: slateKameezImg,
     featuredProductIds: ['flx-sk-02', 'flx-sk-03']
   },
   {
     id: 'look-03',
     title: 'Look 03: Ceremonial Silk Drape',
     subtitle: 'Hand-Spun Ivory Raw Silk Salwar Kameez',
-    image: '/src/assets/images/product_men_shalwar_ivory_1790601118438.jpg',
+    image: ivorySalwarImg,
     featuredProductIds: ['flx-sk-03', 'flx-01']
   }
 ];
