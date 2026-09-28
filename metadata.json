@@ -1,0 +1,6 @@
+{
+  "name": "Fleex Garments",
+  "description": "Architectural minimalism and luxury heavyweight streetwear. Contemporary garments engineered for drape, form, and longevity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
